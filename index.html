@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Coffee Finder</title>
+	<meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -25,14 +27,17 @@
       </div>
 
       <div class="col s9">
+      	<div id="map"></div>
         <!-- Teal page content  -->
       </div>
 
     </div>
 	
 
-
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvx7dHKQR6HVEoAMROac9BcvE-71Oo1-g&callback=initMap">
+    </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
